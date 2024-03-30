@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+}
+
+body {
+    background: #0F1D23;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.logotype{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: bold;
+    font-family: "Kanit", sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: 1.5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #7df37d;
+}
+
+.home {
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    
+}
+
+.home-content {
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.home-content h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #7df37d;
+}
+
+.home-content p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.home-content .div-btn-box {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    height: 50px;
+    background: transparent;
+    padding: 0 10%;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-btn-box a {
+    display: inline-flex;
+    height: 100%;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+    padding: 0 15px;
+}
+
+.div-btn-box a:nth-child(1) {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.div-btn-box a:nth-child(1):hover {
+    color: #b1ecb1;
+    border-color: rgb(135, 124, 233);
+    background: #070707;
+}
+
+.div-btn-box a:nth-child(2) {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.div-btn-box a:nth-child(2):hover {
+    color: #b1ecb1;
+    border-color:  rgb(135, 124, 233);
+    background: #070707;
+}
+
+.div-btn-box a:nth-child(3) {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.div-btn-box a:nth-child(3):hover {
+    color: #b1ecb1;
+    border-color:  rgb(135, 124, 233);
+    background: #070707;
+}
+
+.home-sci{
+    position: absolute;
+    width: 200px;
+    bottom: 240px;
+    right: 1213px;
+    background: transparent;
+    font-size: 50px;
+    display: none;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px; 
+}
+
+.home-sci a{
+    color: #96d896;
+}
